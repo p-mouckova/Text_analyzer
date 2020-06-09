@@ -1,2 +1,2 @@
-# Projekt_text_analyzator
-Tento repozitář slouží k odevzdání prvního projektu Engeto Python Akademy
+# Project Text analyzer
+This is a Text analyzer project from Engeto Python Academy
