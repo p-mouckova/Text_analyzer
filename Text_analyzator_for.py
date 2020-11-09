@@ -33,13 +33,13 @@ USERS = {
     'liz': 'pass123'
 }
 
-ODDELOVAC = '-' * 40
+SEPARATOR = '-' * 40
 
-print(ODDELOVAC)
+print(SEPARATOR)
 print('Welcome to the app. Please log in: ')
 username = input('USERNAME: ')
 password = input('PASSWORD: ')
-print(ODDELOVAC)
+print(SEPARATOR)
 
 if USERS.get(username) != password:
     print('Incorrect USERNAME or PASSWORD. Please log in again.')
@@ -47,7 +47,7 @@ if USERS.get(username) != password:
 
 print('We have 3 texts to be analyzed.')
 number = input('Enter a number btw. 1 and 3 to select: ')
-print(ODDELOVAC)
+print(SEPARATOR)
 
 if not number.isdigit() or int(number) < 1 or int(number) > 3:
     print('You did not enter a correct number.')
@@ -81,13 +81,13 @@ print('There are', titlecase, 'titlecase words')
 print('There are', uppercase, 'uppercase words')
 print('There are', lowercase, 'lowercase words')
 print('There are', numeric, 'numeric strings')
-print(ODDELOVAC)
+print(SEPARATOR)
 
 for letter, frequency in enumerate(word_lenghts):
     if letter in word_lenghts:
         frequency = word_lenghts.get(letter)
         print(letter, '*' * frequency, frequency)
 
-print(ODDELOVAC)
+print(SEPARATOR)
 print('If we summed all the numbers in this text we would get:', float(numbers))
-print(ODDELOVAC)
+print(SEPARATOR)
