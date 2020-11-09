@@ -91,3 +91,4 @@ for letter, frequency in enumerate(word_lenghts):
 print(SEPARATOR)
 print('If we summed all the numbers in this text we would get:', float(numbers))
 print(SEPARATOR)
+
